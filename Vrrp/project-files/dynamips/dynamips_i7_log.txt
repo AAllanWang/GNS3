@@ -1,0 +1,28 @@
+Nov 27 22:36:20.829 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 27 22:36:20.830 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56494.
+Nov 27 22:36:21.305 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 27 22:36:21.305 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 27 22:36:21.306 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ewawenl\GNS3\projects\Vrrp\project-files\dynamips 
+Nov 27 22:36:21.306 GENERAL: working_dir=C:\Users\ewawenl\GNS3\projects\Vrrp\project-files\dynamips
+Nov 27 22:36:21.306 HYPERVISOR: exec_cmd: ethsw create SW1 
+Nov 27 22:36:27.173 HYPERVISOR: exec_cmd: nio create_udp udp-23405daf-8686-4c9f-99a0-814c10d4cb47 10001 127.0.0.1 10002 
+Nov 27 22:36:27.202 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-23405daf-8686-4c9f-99a0-814c10d4cb47 
+Nov 27 22:36:27.219 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-23405daf-8686-4c9f-99a0-814c10d4cb47 1 
+Nov 27 22:36:32.053 HYPERVISOR: exec_cmd: nio create_udp udp-0d9cca91-1808-4b3a-ac87-5a59856f05d9 10006 127.0.0.1 10004 
+Nov 27 22:36:32.055 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-0d9cca91-1808-4b3a-ac87-5a59856f05d9 
+Nov 27 22:36:32.064 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-0d9cca91-1808-4b3a-ac87-5a59856f05d9 1 
+Nov 27 22:36:35.891 HYPERVISOR: exec_cmd: nio create_udp udp-8051be2e-6ece-432c-aad8-723821e6fad6 10009 127.0.0.1 10008 
+Nov 27 22:36:35.893 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-8051be2e-6ece-432c-aad8-723821e6fad6 
+Nov 27 22:36:35.922 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-8051be2e-6ece-432c-aad8-723821e6fad6 1 
+Nov 27 22:36:40.880 HYPERVISOR: exec_cmd: nio create_udp udp-25160885-25a8-4850-baca-fa52393c33ef 10011 127.0.0.1 10010 
+Nov 27 22:36:40.882 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-25160885-25a8-4850-baca-fa52393c33ef 
+Nov 27 22:36:40.890 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-25160885-25a8-4850-baca-fa52393c33ef 1 
+Nov 27 22:36:45.830 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-0ae70dc3-18b1-4370-a7ae-a73446947a92 \Device\NPF_{A5F38C20-E63A-4DC8-9426-6FFE5CF23143} 
+Nov 27 22:36:45.843 HYPERVISOR: exec_cmd: ethsw add_nio SW1 generic_ethernet-0ae70dc3-18b1-4370-a7ae-a73446947a92 
+Nov 27 22:36:45.853 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 generic_ethernet-0ae70dc3-18b1-4370-a7ae-a73446947a92 1 
+Nov 27 22:41:40.513 HYPERVISOR: exec_cmd: ethsw remove_nio SW1 generic_ethernet-0ae70dc3-18b1-4370-a7ae-a73446947a92 
+Nov 27 22:41:40.527 HYPERVISOR: exec_cmd: nio delete generic_ethernet-0ae70dc3-18b1-4370-a7ae-a73446947a92 
+Nov 27 23:05:45.721 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Nov 27 23:05:45.846 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 27 23:05:45.986 HYPERVISOR: Stopped.
+Nov 27 23:05:45.986 GENERAL: reset done.

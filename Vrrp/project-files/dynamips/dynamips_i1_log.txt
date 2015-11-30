@@ -1,0 +1,38 @@
+Nov 28 10:50:39.307 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 28 10:50:39.307 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58935.
+Nov 28 10:50:39.697 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 28 10:50:39.713 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 28 10:50:39.713 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/ewawenl/GNS3/projects/Vrrp\project-files\dynamips 
+Nov 28 10:50:39.713 GENERAL: working_dir=C:/Users/ewawenl/GNS3/projects/Vrrp\project-files\dynamips
+Nov 28 10:50:39.713 HYPERVISOR: exec_cmd: ethsw create SW1 
+Nov 28 10:50:39.869 HYPERVISOR: exec_cmd: nio create_udp udp-46d76694-d9c8-4ae6-81b7-a71eb3dfebed 10002 127.0.0.1 10001 
+Nov 28 10:50:39.885 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-46d76694-d9c8-4ae6-81b7-a71eb3dfebed 
+Nov 28 10:50:39.900 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-46d76694-d9c8-4ae6-81b7-a71eb3dfebed 1 
+Nov 28 10:50:40.836 HYPERVISOR: exec_cmd: nio create_udp udp-5d27fb07-647e-4a33-931e-3360a98c3993 10008 127.0.0.1 10009 
+Nov 28 10:50:40.867 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-5d27fb07-647e-4a33-931e-3360a98c3993 
+Nov 28 10:50:40.930 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-5d27fb07-647e-4a33-931e-3360a98c3993 1 
+Nov 28 10:50:41.008 HYPERVISOR: exec_cmd: nio create_udp udp-7a3b2f83-c704-4147-bf86-6caded3ed9df 10012 127.0.0.1 10013 
+Nov 28 10:50:41.039 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-7a3b2f83-c704-4147-bf86-6caded3ed9df 
+Nov 28 10:50:41.070 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-7a3b2f83-c704-4147-bf86-6caded3ed9df 1 
+Nov 28 10:50:41.117 HYPERVISOR: exec_cmd: nio create_udp udp-2c64429c-b2c3-432d-80f6-a59ae7ea1033 10016 127.0.0.1 10017 
+Nov 28 10:50:41.148 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-2c64429c-b2c3-432d-80f6-a59ae7ea1033 
+Nov 28 10:50:41.195 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-2c64429c-b2c3-432d-80f6-a59ae7ea1033 1 
+Nov 28 11:05:41.186 HYPERVISOR: exec_cmd: nio create_udp udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 10021 127.0.0.1 10020 
+Nov 28 11:05:41.218 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 
+Nov 28 11:05:41.249 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 1 
+Nov 28 11:32:36.624 HYPERVISOR: exec_cmd: nio bind_filter udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 2 capture 
+Nov 28 11:32:36.624 HYPERVISOR: exec_cmd: nio setup_filter udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 2 en10mb C:/Users/ewawenl/GNS3/projects/Vrrp\project-files\captures\SW1_5_to_PC3_Ethernet0.pcap 
+Nov 28 11:34:23.751 HYPERVISOR: exec_cmd: nio unbind_filter udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 2 
+Nov 28 11:34:27.544 HYPERVISOR: exec_cmd: nio bind_filter udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 2 capture 
+Nov 28 11:34:27.544 HYPERVISOR: exec_cmd: nio setup_filter udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 2 en10mb C:/Users/ewawenl/GNS3/projects/Vrrp\project-files\captures\SW1_5_to_PC3_Ethernet0.pcap 
+Nov 28 11:36:12.812 HYPERVISOR: exec_cmd: nio unbind_filter udp-e3b0e1dc-6fd4-4a55-9a14-6139385d09b0 2 
+Nov 28 11:42:35.838 HYPERVISOR: exec_cmd: nio bind_filter udp-5d27fb07-647e-4a33-931e-3360a98c3993 2 capture 
+Nov 28 11:42:35.838 HYPERVISOR: exec_cmd: nio setup_filter udp-5d27fb07-647e-4a33-931e-3360a98c3993 2 en10mb C:/Users/ewawenl/GNS3/projects/Vrrp\project-files\captures\SW1_2_to_R1_FastEthernet0-0.pcap 
+Nov 28 11:44:02.258 HYPERVISOR: exec_cmd: nio unbind_filter udp-5d27fb07-647e-4a33-931e-3360a98c3993 2 
+Nov 28 15:09:03.541 HYPERVISOR: exec_cmd: nio create_udp udp-dfd459e6-1fe2-46c5-875a-3bab48f6dccd 10023 127.0.0.1 10022 
+Nov 28 15:09:03.541 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-dfd459e6-1fe2-46c5-875a-3bab48f6dccd 
+Nov 28 15:09:03.561 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-dfd459e6-1fe2-46c5-875a-3bab48f6dccd 1 
+Nov 28 15:15:40.628 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Nov 28 15:15:40.748 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 28 15:15:41.048 HYPERVISOR: Stopped.
+Nov 28 15:15:41.048 GENERAL: reset done.
